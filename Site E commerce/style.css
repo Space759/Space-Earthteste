@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Redressed&family=Roboto+Condensed:ital@1&family=Supermercado+One&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid white;
+}
+nav h1{
+    color: #717171;
+    font-family: 'Redressed', serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+p {
+    color: white;
+    text-align: center;
+}
+header h1{
+    color: white;
+    text-align: center;
+
+
+}
+table {
+
+    color: white;
+}
+#p3 {
+    font-size: 20px;
+    border: 2px solid white;
+
+
+}
+#p1{
+    font-size: 20px;
+
+
+}
+#p2{
+    font-size: 20px;
+
+
+}
+footer {
+      background-image: url(bg noir.jpeg);
+
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
